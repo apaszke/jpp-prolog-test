@@ -5,6 +5,8 @@ Testy generują wszystkie słowa o wyprowadzeniach do zadanej głębokości, ora
 
 ## Zależności
 
+Python odpala interpreter `swipl` zamiast `sicstus`a (`swipl` jest darmowy, więc można go u siebie łatwo zainstalować).
+
 ```bash
 pip install nltk
 ```
