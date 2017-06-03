@@ -1,6 +1,3 @@
-grammar(ex1, gramatyka('E', [prod('E', [[nt('E'),+,nt('T')], [nt('T')]]),
-                             prod('T', [[id], ['(', nt('E'), ')']]) ])).
-
 parseWords(Automat) :-
     read(Word),
     ( Word = end_of_file ->
