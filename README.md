@@ -1,4 +1,4 @@
-# Testy do zadania z Prologa
+# Testy do zadania z Prologu
 
 Program zakłada że implementacja obu funkcji z zadania znajduje się w pliku `auto.pl` (można to zmienić w `test_words.pl`).
 Testy generują wszystkie słowa o wyprowadzeniach do zadanej głębokości, oraz dla każdego takiego słowa dokonują losowych przekształceń, i sprawdzają czy automat nie przyjmuje takiego słowa (jeżeli nie należy już do języka).
